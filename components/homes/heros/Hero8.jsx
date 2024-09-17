@@ -49,7 +49,7 @@ export default function Hero8() {
         <div className="row justify-center">
           <div className="col-lg-8 col-md-10">
             <div className="hero__content text-center">
-              <div
+              {/* <div
                 data-aos="fade-up"
                 data-aos-delay="100"
                 className="hero__filter mb-60 md:mb-0 md:mt-30"
@@ -146,7 +146,7 @@ export default function Hero8() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div>
                 <h1 className="hero__title text-white">
@@ -157,11 +157,13 @@ export default function Hero8() {
                   Personalized Itineraries, Hassle-Free Bookings
                   <br className="lg:d-none" />
                   Relax, We’ve Got It All!
+                  <div className="mt-3">
                   <button
                     onClick={() => router.push("/tour-list-6")}
-                    className="button mx-auto p-1 -dark-1 bg-accent-2 size-1500 rounded-100 text-white">
+                    className="button mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
                     Inspire me
                   </button>
+                  </div>
                 </div>
               </div>
             </div>
