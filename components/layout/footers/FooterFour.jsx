@@ -174,7 +174,7 @@ export default function FooterFour() {
           <div className="footer__bottom">
             <div className="row y-gap-5 justify-between items-center">
               <div className="col-auto text-white">
-                <div>© Copyright Viatours {new Date().getFullYear()}</div>
+                <div>© Copyright Travel Tailor {new Date().getFullYear()}</div>
               </div>
 
               <div className="col-auto">

@@ -11,7 +11,9 @@ import TourTypes3 from "@/components/homes/tourTypes/TourTypes3";
 import TourSlider3 from "@/components/homes/tours/FeaturedTrips";
 import FooterFour from "@/components/layout/footers/FooterFour";
 import Header5 from "@/components/layout/header/Header5";
+
 import React from "react";
+import { Calendar } from "react-multi-date-picker";
 
 export const metadata = {
   title: "Home-6 || ViaTour - Travel & Tour React NextJS Template",
