@@ -33,7 +33,7 @@ export default function TourTypes3() {
           className="row y-gap-20 pt-40"
         >
           {featureCards.map((elm, i) => (
-            <div key={i} className="col-xl-3 col-md-3 col-6">
+            <div key={i} className="col-xl-2 col-md-2 col-6">
               <Link
                 href={"/tour-list-1"}
                 className="featureCard -type-5 -hover-accent-1"

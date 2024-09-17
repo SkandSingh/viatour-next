@@ -22,11 +22,11 @@ export default function Banner10() {
               data-aos-delay=""
               className="text-40 md:text-30 fw-700"
             >
-              Subscribe To Our Mailing
-              <br className="md:d-none" /> List And Stay Up To Date
+              Be the First to Know 
+              <br className="md:d-none" /> About Hidden Gems!
             </h2>
             <p data-aos="fade-up" data-aos-delay="" className="mt-20">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Join Us for the Latest Travel Trends and Deals
             </p>
 
             <div

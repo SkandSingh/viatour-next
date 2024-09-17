@@ -50,20 +50,20 @@ export const featuresTwo = [
   {
     id: 1,
     iconSrc: "/img/icons/2/1.svg",
-    value: "200+",
-    label: "Total Destinations",
+    value: "80+",
+    label: "Happy Travelers ",
   },
   {
     id: 2,
     iconSrc: "/img/icons/2/2.svg",
-    value: "3000+",
-    label: "Amazing Tours",
+    value: "20+",
+    label: "Travel Partners ",
   },
   {
     id: 3,
     iconSrc: "/img/icons/2/3.svg",
-    value: "90,000+",
-    label: "Happy Customer",
+    value: "10+",
+    label: "Counties covered",
   },
 ];
 

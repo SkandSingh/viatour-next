@@ -72,43 +72,43 @@ export const testimonialsThree = [
   {
     id: 1,
     imgSrc: "/img/avatars/2/1.jpg",
-    name: "Sarah John",
-    role: "An avid traveler from New York",
+    name: "~Aanya Jain",
+    role: "Delhi, India",
     comment:
-      "From planning to execution, this service took the stress out of my trip! They handled everything, from flights to accommodation, and allowed me to enjoy my vacation at my own pace. I felt supported every step of the way!",
+      "Just wrapped up my first solo trip to Europe, and I couldn't be happier with Travel Tailor’s help! They totally got what I needed and made everything super smooth. Thanks to them, my trip was stress-free and amazing.",
   },
   {
     id: 2,
     imgSrc: "/img/avatars/2/2.jpg",
-    name: "Alex Martin",
-    role: "An entrepreneur from London",
+    name: "~Riddhi & Sanchit Mittal",
+    role: "Toronto, Canada",
     comment:
-      "As a business traveler, I needed precision and efficiency. They not only booked my flights and hotel but also ensured that my transfers were seamless. Their 24/7 support meant I never felt lost, even in the busiest cities.",
+      "Travel Tailor had helped us plan a trip to Bhutan in December 2023. Their attention to detail and meticulously curated itinerary made sure that we could enjoy the best experiences. All aspects of the trip, such as the logistics and accommodation were also very well taken care of, making our trip truly memorable. Highly recommend letting Travel Tailor :) ",
   },
   {
     id: 3,
     imgSrc: "/img/avatars/2/3.jpg",
-    name: "Emma Watson",
-    role: "A solo traveler from Sydney",
+    name: "~Mir Desai",
+    role: "Bhopal, Madhya Pradesh",
     comment:
-      "What stood out for me was their attention to detail and personal touch. I had specific preferences for my itinerary, and they accommodated every one of them, making sure my trip felt tailor-made just for me.",
+      "My solo trip to the Northeast was amazing, thanks to Travel Tailor. I was after nature, monasteries, and discovering hidden gems. Their advice on the free consultation call was spot-on, making my adventure unforgettable. For each trip, definitely give them a shoutout!",
   },
   {
     id: 4,
     imgSrc: "/img/avatars/2/4.jpg",
-    name: "Lilly gabriel",
-    role: "An avid traveler from Berlin",
+    name: "~Prateek Beriwal",
+    role: "Hyderabad, India",
     comment:
-      "What stood out for me was their attention to detail and personal touch. I had specific preferences for my itinerary, and they accommodated every one of them, making sure my trip felt tailor-made just for me.",
+      "Travel Tailor made our Singapore corporate trip flawless, handling every detail from transfers to accommodations. Their seamless planning and personalized touches let us focus on business while enjoying a stress-free experience. A top choice for corporate travel!",
   },
-  {
-    id: 5,
-    imgSrc: "/img/avatars/2/5.jpg",
-    name: "James Berlin",
-    role: "An enthusiastic traveler from Germany",
-    comment:
-      "Their local knowledge was a complete game-changer for my trip! They recommended hidden gems and off-the-beaten-path spots I would’ve never discovered on my own. It turned a good trip into a great one.",
-  },
+  // {
+  //   id: 5,
+  //   imgSrc: "/img/avatars/2/5.jpg",
+  //   name: "James Berlin",
+  //   role: "An enthusiastic traveler from Germany",
+  //   comment:
+  //     "Their local knowledge was a complete game-changer for my trip! They recommended hidden gems and off-the-beaten-path spots I would’ve never discovered on my own. It turned a good trip into a great one.",
+  // },
 ];
 
 export const testimonialsFive = [

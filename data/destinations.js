@@ -441,13 +441,13 @@ export const destinationCards = [
 export const destinationCards2 = [
   {
     id: 1,
-    title: "Indonesia",
+    title: "Vietnam",
     imgSrc: "/img/features/3/1.jpg",
     tourCount: 100,
   },
   {
     id: 2,
-    title: "Vietnam",
+    title: "Indonesia",
     imgSrc: "/img/features/3/2.jpg",
     tourCount: 100,
   },
@@ -524,18 +524,6 @@ export const featureCards = [
   {
     id: 6,
     title: "Cultural",
-    imgSrc: "/img/icons/5/6.svg",
-    tourCount: 100,
-  },
-  {
-    id: 7,
-    title: "Unusual",
-    imgSrc: "/img/icons/5/6.svg",
-    tourCount: 100,
-  },
-  {
-    id: 8,
-    title: "Culinary",
     imgSrc: "/img/icons/5/6.svg",
     tourCount: 100,
   },

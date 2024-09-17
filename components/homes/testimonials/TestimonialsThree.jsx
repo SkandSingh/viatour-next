@@ -38,7 +38,7 @@ export default function TestimonialsThree() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Customer Reviews
+            Travel Tales That Made Us Happy
             </h2>
           </div>
         </div>
