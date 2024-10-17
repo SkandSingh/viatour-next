@@ -56,8 +56,8 @@ export default function Features5() {
                   key={i}
                   className="featuresGrid__item px-40 py-40 text-center bg-white rounded-12"
                 >
-                  <Image width="60" height="60" src={elm.iconSrc} alt="icon" />
-                  <div className="text-40 fw-700 text-accent-1 mt-20 lh-14">
+                  <Image width="100" height="100" src={elm.iconSrc} alt="icon" />
+                  <div className="text-40 fw-700 text-accent-1 lh-14">
                     {elm.value}
                   </div>
                   <div>{elm.label}</div>

@@ -2,25 +2,25 @@ export const features = [
   //finaL features
   {
     id: 1,
-    iconSrc: "/img/icons/1/ticket.svg",
+    iconSrc: "/img/general/tt website icon-13.png",
     title: "Book It, Forget It",
     text: "Why stress? We handle your bookings 24/7. Just show up and enjoy the ride—our support's got your back, even at 3 a.m",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/1/hot-air-balloon.svg",
+    iconSrc: "/img/general/tt website icon-12.png",
     title: "Stitched to Perfection",
     text: "Your travel, your way. We tailor itineraries so well, they might just fit better than your favorite suit.",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/1/diamond.svg",
+    iconSrc: "/img/general/tt website icon-11.png",
     title: "Perks Worth Bragging About",
     text: "VIP Treatment? Check. Secret spots? Double check. We've got perks that’ll make your friends jealous.",
   },
   {
     id: 4,
-    iconSrc: "/img/icons/1/medal.svg",
+    iconSrc: "/img/general/tt website icon-10.png",
     title: "Brains and Local Brilliance",
     text: "We’ve got the smarts and the street smarts. Global expertise meets local know-how for the ultimate travel experience.",
   },
@@ -49,19 +49,19 @@ export const featuresTwo = [
   //final features
   {
     id: 1,
-    iconSrc: "/img/icons/2/1.svg",
+    iconSrc: "/img/general/tt website icon-03.png",
     value: "80+",
     label: "Happy Travelers ",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/2/2.svg",
+    iconSrc: "/img/general/tt website icon-01.png",
     value: "20+",
     label: "Travel Partners ",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/2/3.svg",
+    iconSrc: "/img/general/tt website icon-02.png",
     value: "10+",
     label: "Counties covered",
   },

@@ -56,9 +56,9 @@ export default function Header5() {
           <div className="header__logo">
             <Link href="/" className="header__logo">
               <Image
-                width="167"
-                height="32"
-                src="/img/general/logo-1.svg"
+                width="120"
+                height="36"
+                src="/img/general/logo-4.svg"
                 alt="logo icon"
                 priority
               />

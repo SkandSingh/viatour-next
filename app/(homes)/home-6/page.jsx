@@ -8,7 +8,7 @@ import Hero8 from "@/components/homes/heros/Hero8";
 import SpacialOffer from "@/components/homes/others/SpacialOffer";
 import TestimonialsThree from "@/components/homes/testimonials/TestimonialsThree";
 import TourTypes3 from "@/components/homes/tourTypes/TourTypes3";
-import TourSlider3 from "@/components/homes/tours/FeaturedTrips";
+import TourSlider3 from "@/components/homes/tours/TourSlider3";
 import FooterFour from "@/components/layout/footers/FooterFour";
 import Header5 from "@/components/layout/header/Header5";
 

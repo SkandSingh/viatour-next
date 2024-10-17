@@ -39,7 +39,7 @@ export default function TourTypes3() {
                 className="featureCard -type-5 -hover-accent-1"
               >
                 <div className="featureCard__icon">
-                  <Image width="40" height="41" src={elm.imgSrc} alt="image" />
+                  <Image width="60" height="61" src={elm.imgSrc} alt="image" />
                 </div>
 
                 <h4 className="text-18 fw-500 mt-20">{elm.title}</h4>
