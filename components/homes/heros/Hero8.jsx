@@ -36,13 +36,22 @@ export default function Hero8() {
 
   return (
     <section className="hero -type-8">
-      <div className="hero__bg">
-        <Image
+      <div className="hero__bg h-fit" >
+        {/* <Image
           width={1920}
           height={860}
           src="/img/hero/8/1.jpg"
           alt="background"
-        />
+        /> */}
+
+        <video autoPlay loop muted>
+          <source
+            src="/img/hero/8/TT website .mp4" // Dummy video link
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+
       </div>
 
       <div className="container">
@@ -158,11 +167,11 @@ export default function Hero8() {
                   <br className="lg:d-none" />
                   Relax, We’ve Got It All!
                   <div className="mt-3">
-                  <button
-                    onClick={() => router.push("/tour-list-6")}
-                    className="button mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
-                    Inspire me
-                  </button>
+                    <button
+                      onClick={() => router.push("/tour-list-6")}
+                      className="button mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
+                      Inspire me
+                    </button>
                   </div>
                 </div>
               </div>
