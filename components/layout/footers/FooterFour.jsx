@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 export default function FooterFour() {
   return (
-    <footer className="footer -type-1 -light bg-dark-1">
+    <footer className="footer -type-1 -light">
       <div className="footer__main">
         <div className="container">
           <div className="footer__info">

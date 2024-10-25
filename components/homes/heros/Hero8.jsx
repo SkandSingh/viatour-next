@@ -36,7 +36,7 @@ export default function Hero8() {
 
   return (
     <section className="hero -type-8">
-      <div className="hero__bg h-fit" >
+      <div className="hero__bg" >
         {/* <Image
           width={1920}
           height={860}
@@ -169,7 +169,7 @@ export default function Hero8() {
                   <div className="mt-3">
                     <button
                       onClick={() => router.push("/tour-list-6")}
-                      className="button mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
+                      className="button py-16 px-25 mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
                       Inspire me
                     </button>
                   </div>

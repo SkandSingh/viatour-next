@@ -127,7 +127,7 @@ export default function TestimonialsThree() {
                       width={70}
                       height={71}
                       src={elm.imgSrc}
-                      style={{ height: "auto" }}
+                      // style={{ height: "auto" }}
                       alt="person"
                     />
                   </div>

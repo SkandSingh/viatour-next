@@ -71,7 +71,7 @@ export const testimonialsThree = [
   //final feature
   {
     id: 1,
-    imgSrc: "/img/avatars/2/1.jpg",
+    imgSrc: "/img/avatars/2/image.png",
     name: "~Aanya Jain",
     role: "Delhi, India",
     comment:
@@ -79,7 +79,7 @@ export const testimonialsThree = [
   },
   {
     id: 2,
-    imgSrc: "/img/avatars/2/2.jpg",
+    imgSrc: "/img/avatars/2/image1.png",
     name: "~Riddhi & Sanchit Mittal",
     role: "Toronto, Canada",
     comment:
@@ -87,7 +87,7 @@ export const testimonialsThree = [
   },
   {
     id: 3,
-    imgSrc: "/img/avatars/2/3.jpg",
+    imgSrc: "/img/avatars/2/image.png",
     name: "~Mir Desai",
     role: "Bhopal, Madhya Pradesh",
     comment:
@@ -95,7 +95,7 @@ export const testimonialsThree = [
   },
   {
     id: 4,
-    imgSrc: "/img/avatars/2/4.jpg",
+    imgSrc: "/img/avatars/2/image1.png",
     name: "~Prateek Beriwal",
     role: "Hyderabad, India",
     comment:
