@@ -1,7 +1,11 @@
+"use client"
+
+import CarouselCard from "@/components/custom_curousal_card";
 import { destinationCards2 } from "@/data/destinations";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
 
 export default function TrendingDestinations3() {
   return (
@@ -36,7 +40,7 @@ export default function TrendingDestinations3() {
           data-aos-delay=""
           className="row y-gap-30 pt-40 sm:pt-20"
         >
-          {destinationCards2.map((elm, i) => (
+          {/* {destinationCards2.map((elm, i) => (
             <div key={i} className="col-lg-3 col-sm-6">
               <Link
                 href="/tour-list-1"
@@ -57,7 +61,8 @@ export default function TrendingDestinations3() {
                 </div>
               </Link>
             </div>
-          ))}
+          ))} */}
+           <CarouselCard></CarouselCard>
         </div>
       </div>
     </section>

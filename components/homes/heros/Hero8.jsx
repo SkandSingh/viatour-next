@@ -5,6 +5,7 @@ import TourType from "@/components/common/dropdownSearch/TourType";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
+import CarouselCard from "@/components/custom_curousal_card";
 // import { Button } from "bootstrap";
 
 export default function Hero8() {
@@ -36,7 +37,7 @@ export default function Hero8() {
 
   return (
     <section className="hero -type-8">
-      <div className="hero__bg" >
+      <div className="hero__bg">
         {/* <Image
           width={1920}
           height={860}
@@ -51,7 +52,7 @@ export default function Hero8() {
           />
           Your browser does not support the video tag.
         </video>
-
+        
       </div>
 
       <div className="container">
@@ -158,10 +159,38 @@ export default function Hero8() {
               </div> */}
 
               <div>
-                <h1 className="hero__title text-white">
-                  Go where you feel most alive
+                <h1 className="hero__title text-white relative">
+                  <div className="testimonials__icon size-6 absolute" style={{top:"-30px" , left:"100px", scale:2}}>
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div className="testimonials__icon size-6 absolute" style={{bottom:"0px", right:"185px" , scale:2 , transform:"rotate(180deg)"}}>
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <span style={{fontFamily:"sans-serif", fontSize:"3.5rem"}}>go where you feel <br /> most <i>alive</i></span>
                 </h1>
-
+               
                 <div className="hero__text text-white mt-10">
                   Personalized Itineraries, Hassle-Free Bookings
                   <br className="lg:d-none" />
@@ -169,7 +198,8 @@ export default function Hero8() {
                   <div className="mt-3">
                     <button
                       onClick={() => router.push("/tour-list-6")}
-                      className="button py-16 px-25 mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white">
+                      className="button py-16 px-25 mx-auto p-2 -dark-1 bg-accent-1 size-1500 rounded-100 text-white"
+                    >
                       Inspire me
                     </button>
                   </div>
@@ -179,8 +209,6 @@ export default function Hero8() {
           </div>
         </div>
       </div>
-
     </section>
-
   );
 }

@@ -5176,7 +5176,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featureCard.-type-5.-hover-accent-1:hover {
-  background-color: var(--color-accent-1);
+  /* Hover IMG HERE  */
+  background-color: var(--color-accent-1 ); 
 }
 
 .featureCard.-type-5.-hover-accent-1:hover > * {
@@ -11640,6 +11641,46 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+.calGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 20px;
+}
+@media screen and (max-width : 600px) {
+  .calGrid{
+    grid-template-columns: repeat(1, 1fr); /* 4 columns */
+    grid-template-rows: repeat(12, 1fr); 
+    width: 100%;
+    gap: 10px;
+  }
+
+  .calGrid-item{
+    width: 100%;
+    height: 350px;
+  }
+
+}
+.calGrid-item {
+  position: relative;
+  font-size: 30px;
+  height: 400px;
+  text-align: center;
+}
+.calGrid-item  img{
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.8);
+}
+.calGrid-item  p{
+  position: absolute;
+  bottom: 10px; 
+  font-size: xx-large;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  left: 10px;
 }
 
 .grid.-type-1 {

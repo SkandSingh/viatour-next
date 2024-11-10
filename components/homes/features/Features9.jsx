@@ -37,7 +37,7 @@ export default function Features9() {
             <div data-aos="fade-up" data-aos-delay="" className="row y-gap-30">
               {featureCards.map((elm, i) => (
                 <div key={i} className="col-md-4 col-6">
-                  <a href="#" className="featureCard -type-5 -hover-accent-1">
+                  <a href="#" className="featureCard -type-5 -hover-accent-1" data-hover-img="https://th.bing.com/th/id/R.cc69e7eccf3b253e790075fc898f3f38?rik=HVTCpavVQaRgwQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fHD-Jungle-Image.jpg&ehk=HKSLFPIs5L%2bhplg8QVxYH6%2bEhvR4fp%2bZZ3pWnVaKhYE%3d&risl=&pid=ImgRaw&r=0">
                     <div className="featureCard__icon">
                       <Image
                         width="40"

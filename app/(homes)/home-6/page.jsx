@@ -11,6 +11,7 @@ import TourTypes3 from "@/components/homes/tourTypes/TourTypes3";
 import TourSlider3 from "@/components/homes/tours/TourSlider3";
 import FooterFour from "@/components/layout/footers/FooterFour";
 import Header5 from "@/components/layout/header/Header5";
+import CalendarWidget from "@/components/layout/calendars/calendar";
 
 import React from "react";
 import { Calendar } from "react-multi-date-picker";
@@ -36,6 +37,7 @@ export default function page() {
           <ArticlesOne />
         </div> */}
         {/* <SpacialOffer /> */}
+        <CalendarWidget></CalendarWidget>
         <BrandsThree />
         <Banner10 />
         <FooterFour />
