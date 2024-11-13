@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 export default function FooterFour() {
   return (
-    <footer className="footer -type-1 -light" style={{marginTop:"20px"}} >
+    <footer className="footer -type-1 -light" style={{marginTop:"40px"}} >
       <div className="footer__main" style={{background:"#ec662a"}} >
         <div className="container" >
           <div className="footer__info" >
@@ -18,8 +18,8 @@ export default function FooterFour() {
 
                   <div className="col-auto">
                     <div className="text-20 fw-500 text-white text-white">
-                      Speak to our expert at
-                      <span className="text-white">1-800-453-6744</span>
+                      Speak to our expert at {' '}
+                      <span className="text-white">+91 95400 05922</span>
                     </div>
                   </div>
                 </div>

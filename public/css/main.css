@@ -3130,7 +3130,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .footer.-type-1 .footer__main {
-    padding-top: 60px;
+    padding-top: 0px;
   }
 }
 
@@ -3165,15 +3165,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer.-type-1 .footer__info {
-  padding-top: 80px;
-  padding-bottom: 48px;
+  padding: 40px;
   border-bottom: 1px solid rgba(235, 102, 43, 0.15);
 }
 
 @media (max-width: 767px) {
   .footer.-type-1 .footer__info {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0px;
+
   }
 }
 
