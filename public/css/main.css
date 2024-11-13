@@ -1991,7 +1991,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .header.-type-1 .header__container {
-    height: 57px;
+    height: 65px;
   }
 }
 
@@ -2000,6 +2000,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+@media screen and (max-width: 798px) {
+  .header.-type-1 .header__logo img {
+    height: 90px !important;
+  }
+}
 .header.-type-1 .header__right {
   display: flex;
   align-items: center;
@@ -3118,6 +3123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer.-type-1 .footer__main {
+  
   position: relative;
   z-index: 0;
 }

@@ -160,7 +160,7 @@ export default function Hero8() {
 
               <div>
                 <h1 className="hero__title text-white relative">
-                  <div className="testimonials__icon size-6 absolute" style={{top:"-30px" , left:"100px", scale:2}}>
+                  <div className="testimonials__icon size-6 absolute" style={{top:"-30px" , left:"150px", scale:2}}>
                     <svg
                       width="16"
                       height="13"
@@ -174,7 +174,7 @@ export default function Hero8() {
                       />
                     </svg>
                   </div>
-                  <div className="testimonials__icon size-6 absolute" style={{bottom:"0px", right:"185px" , scale:2 , transform:"rotate(180deg)"}}>
+                  <div className="testimonials__icon size-6 absolute" style={{bottom:"0px", right:"235px" , scale:2 , transform:"rotate(180deg)"}}>
                     <svg
                       width="16"
                       height="13"

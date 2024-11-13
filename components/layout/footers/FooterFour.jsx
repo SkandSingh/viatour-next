@@ -5,10 +5,10 @@ import Socials from "../components/Socials";
 
 export default function FooterFour() {
   return (
-    <footer className="footer -type-1 -light">
-      <div className="footer__main">
-        <div className="container">
-          <div className="footer__info">
+    <footer className="footer -type-1 -light" style={{marginTop:"20px"}} >
+      <div className="footer__main" style={{background:"#ec662a"}} >
+        <div className="container" >
+          <div className="footer__info" >
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="row y-gap-20 items-center">
@@ -173,7 +173,7 @@ export default function FooterFour() {
         <div className="container">
           <div className="footer__bottom">
             <div className="row y-gap-5 justify-between items-center">
-              <div className="col-auto text-white">
+              <div className="col-auto ">
                 <div>© Copyright Travel Tailor {new Date().getFullYear()}</div>
               </div>
 

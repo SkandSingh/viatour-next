@@ -30,7 +30,7 @@ export default function page() {
         <FeaturesOne />
         <TrendingDestinations3 />
         <TourTypes3 />
-        <TourSlider3 />
+        {/* <TourSlider3 /> */}
         <Features5 />
         <TestimonialsThree />
         {/* <div className=" bg-light-1">
@@ -39,7 +39,7 @@ export default function page() {
         {/* <SpacialOffer /> */}
         <CalendarWidget></CalendarWidget>
         <BrandsThree />
-        <Banner10 />
+     
         <FooterFour />
       </main>
     </>
