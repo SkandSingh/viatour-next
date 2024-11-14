@@ -56,7 +56,7 @@ export default function Hero8() {
           alt="background"
         /> */}
 
-        <video autoPlay loop muted>
+        <video autoPlay loop muted style={{height:"100%"}}>
           <source
             src="/img/hero/8/TT website .mp4" // Dummy video link
             type="video/mp4"

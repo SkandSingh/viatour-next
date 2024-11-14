@@ -4137,7 +4137,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero.-type-8 {
   position: relative;
   padding-top: 192px;
-  padding-bottom: 378px;
+  padding-bottom: 192px;
   z-index: 5;
 }
 
@@ -4195,6 +4195,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 70px;
   font-weight: 600;
   line-height: 1.2;
+  padding: 0px 22.5px;
 }
 
 @media (max-width: 991px) {
@@ -10146,7 +10147,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .layout-pt-xl {
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .layout-pb-xl {
     padding-bottom: 120px;
@@ -10191,7 +10192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   .layout-pt-xl {
-    padding-top: 50px;
+    padding-top: 25px;
   }
   .layout-pb-xl {
     padding-bottom: 50px;

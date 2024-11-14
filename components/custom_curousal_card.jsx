@@ -78,7 +78,7 @@ function CarouselCard() {
         </div>
       ))}
     </div>
-    <p className={styles.scrollHint}>Scroll For More</p>
+    <p className={styles.scrollHint}>Swipe To Explore</p>
     </div>
   );
 }
