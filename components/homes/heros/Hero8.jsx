@@ -36,7 +36,18 @@ export default function Hero8() {
   }, []);
 
   return (
-    <section className="hero -type-8">
+    <section className="hero -type-8 relative">
+      <div
+        className="absolute "
+        style={{
+          width: "100vw",
+          height: "100%",
+          background: "black",
+          top: "0px",
+          left: "0px",
+          opacity: "0.3",
+        }}
+      ></div>
       <div className="hero__bg">
         {/* <Image
           width={1920}
@@ -52,7 +63,6 @@ export default function Hero8() {
           />
           Your browser does not support the video tag.
         </video>
-        
       </div>
 
       <div className="container">
@@ -158,40 +168,58 @@ export default function Hero8() {
                 </div>
               </div> */}
 
-              <div>
+              <div
+                style={{ zIndex: 10 }}
+             
+              >
                 <h1 className="hero__title text-white relative">
-                  <div className="testimonials__icon size-6 absolute" style={{top:"-30px" , left:"150px", scale:2}}>
-                    <svg
-                      width="16"
-                      height="13"
-                      viewBox="0 0 16 13"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <span className="relative"
+                    style={{ fontFamily: "sans-serif", fontSize: "3.5rem" }}
+                  >
+                    <div
+                      className="testimonials__icon size-6 absolute"
+                      style={{ top: "-30px", left: "-25px", scale: 2 }}
                     >
-                      <path
-                        d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </div>
-                  <div className="testimonials__icon size-6 absolute" style={{bottom:"0px", right:"235px" , scale:2 , transform:"rotate(180deg)"}}>
-                    <svg
-                      width="16"
-                      height="13"
-                      viewBox="0 0 16 13"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                      <svg
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      className="testimonials__icon size-6 absolute"
+                      style={{
+                        bottom: "0px",
+                        right: "-35px",
+                        scale: 2,
+                        transform: "rotate(180deg)",
+                      }}
                     >
-                      <path
-                        d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </div>
-                  <span style={{fontFamily:"sans-serif", fontSize:"3.5rem"}}>go where you feel <br /> most <i>alive</i></span>
+                      <svg
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.3165 0.838867C12.1013 1.81846 10.9367 3.43478 9.77215 5.63887C8.65823 7.84295 8 10.2429 7.8481 12.8389H12.4557C12.4051 8.87152 13.6203 5.24703 16 1.91642L13.3165 0.838867ZM5.51899 0.838867C4.25316 1.81846 3.08861 3.43478 1.92405 5.63887C0.810126 7.84295 0.151899 10.2429 0 12.8389H4.60759C4.55696 8.87152 5.77215 5.19805 8.20253 1.91642L5.51899 0.838867Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    go where you feel <br /> most <i>alive</i>
+                  </span>
                 </h1>
-               
-                <div className="hero__text text-white mt-10">
+
+                <div className="hero__text text-white mt-10 ">
                   Personalized Itineraries, Hassle-Free Bookings
                   <br className="lg:d-none" />
                   Relax, We’ve Got It All!

@@ -29,6 +29,7 @@ export default function page() {
         <Hero8 />
         <FeaturesOne />
         <TrendingDestinations3 />
+        <CalendarWidget></CalendarWidget>
         <TourTypes3 />
         {/* <TourSlider3 /> */}
         <Features5 />
@@ -37,8 +38,8 @@ export default function page() {
           <ArticlesOne />
         </div> */}
         {/* <SpacialOffer /> */}
-        <CalendarWidget></CalendarWidget>
-        <BrandsThree />
+        
+        {/* <BrandsThree /> */}
      
         <FooterFour />
       </main>
