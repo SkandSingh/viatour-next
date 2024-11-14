@@ -2,8 +2,8 @@ import Invoice from "@/components/Invoice";
 import React from "react";
 
 export const metadata = {
-  title: "Invoice || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Invoice || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {

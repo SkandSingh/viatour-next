@@ -10,8 +10,8 @@ import TourSlider from "@/components/pages/destinations/TourSlider";
 import React from "react";
 
 export const metadata = {
-  title: "Destinations || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Destinations || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {

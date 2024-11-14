@@ -42,6 +42,7 @@ export default function Hero8() {
         style={{
           width: "100vw",
           height: "100%",
+          
           background: "black",
           top: "0px",
           left: "0px",

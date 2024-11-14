@@ -13,8 +13,8 @@ import Header4 from "@/components/layout/header/Header4";
 import React from "react";
 
 export const metadata = {
-  title: "Home-5 || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Home-5 || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {

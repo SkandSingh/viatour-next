@@ -5,8 +5,8 @@ import PageHeader from "@/components/pages/terms/PageHeader";
 import React from "react";
 
 export const metadata = {
-  title: "Terms || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Terms || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {

@@ -5,8 +5,8 @@ import BlogSingle from "@/components/blogs/BlogSingle";
 import { blogs } from "@/data/blogs";
 
 export const metadata = {
-  title: "Blog-single || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Blog-single || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page({ params }) {

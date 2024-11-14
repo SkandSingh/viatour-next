@@ -2,8 +2,8 @@ import DBMain from "@/components/dasboard/main";
 import React from "react";
 
 export const metadata = {
-  title: "Dashboard-main || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Dashboard-main || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {

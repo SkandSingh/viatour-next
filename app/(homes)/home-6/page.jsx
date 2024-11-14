@@ -17,8 +17,8 @@ import React from "react";
 import { Calendar } from "react-multi-date-picker";
 
 export const metadata = {
-  title: "Home-6 || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Home-6 || Travel Tailor - Personalized Travel Experiences",
+  description: "Travel Tailor - Personalized Travel Experiences",
 };
 
 export default function page() {
