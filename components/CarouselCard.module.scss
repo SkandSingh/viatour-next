@@ -75,9 +75,6 @@ $optionDefaultColours: #ED5565, #FC6E51, #FFCE54, #2ECC71, #5D9CEC, #AC92EC;
       --defaultBackground: #AC92EC;
     }
 
-    &:hover{
-      width: 100px;
-    }
     &.active {
       flex-grow: 10000;
       min-width: 60px;
